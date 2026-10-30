@@ -1,0 +1,166 @@
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+#Data types
+
+x = 50
+type(x)
+<class 'int'>
+x = 3.14
+type(x)
+<class 'float'>
+x = 1j
+type(x)
+<class 'complex'>
+x = 'Rehan'
+type(x)
+<class 'str'>
+x = ["apple","banana","cherry"]
+type(x)
+<class 'list'>
+x = ("kiwi","guava","orange")
+type(x)
+<class 'tuple'>
+x = {"mango","watermelon","papaya"}
+type(x)
+<class 'set'>
+x = True
+type(x)
+<class 'bool'>
+x = {"name":"john"}
+type(x)
+<class 'dict'>
+x = frozenset({"apple","banana"})
+type(x)
+<class 'frozenset'>
+x = range(5)
+type(x)
+<class 'range'>
+x = None
+type(x)
+<class 'NoneType'>
+x = bytearray(5)
+type(x)
+<class 'bytearray'>
+x = memoryview(bytes(5))
+type(x)
+<class 'memoryview'>
+x = b'hello'
+type(x)
+<class 'bytes'>
+
+
+#Arithmetic operators
+
+2+2
+4
+5-1
+4
+3*3
+9
+12/3
+4.0
+6**2
+36
+10%2
+0
+4%2
+0
+5%2
+1
+10//2
+5
+15//3
+5
+
+#Comparison operators
+
+5==5
+True
+5!=3
+True
+4>2
+True
+5<8
+True
+5<1
+False
+5<=6
+True
+6>=7
+False
+8>=7
+True
+
+#Assignment operators
+
+x = 5
+x = 5
+x
+5
+
+x = 16
+x += 4
+x
+20
+
+x = 10
+x -=5
+x
+5
+
+x = 12
+x *= 2
+x
+24
+
+x = 20
+x /= 4
+x
+5.0
+
+x = 5
+x %= 1
+x
+0
+
+x = 7
+x %= 2
+x
+1
+
+x = 24
+x //= 8
+x
+3
+
+x = 8
+x **= 2
+x
+64
+
+
+#list, set and tuple operations
+
+x = ["apple","banana","cherry"]
+x.append("kiwi")
+x
+['apple', 'banana', 'cherry', 'kiwi']
+
+x = {"apple","banana","cherry"}
+x.add("kiwi")
+x
+{'banana', 'cherry', 'kiwi', 'apple'}
+
+>>> x = ["apple","banana","cherry"]
+>>> x[1]
+'banana'
+>>> 
+
+#Dictionary operations
+
+>>> x = {"name":"rehan","class":"ty"}
+>>> x
+{'name': 'rehan', 'class': 'ty'}
+>>> x["name"]
+'rehan'
